@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+body {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+header {
+    margin-top: 0;
+    width: 100%;
+    height: 200px;
+    background-color: #999;
+    border-top: 5px solid #333;
+    border-bottom: 5px solid #333;
+}
+
+header h1 {
+    text-shadow: 0 0 40px #fff;
+    text-align: center;
+    font-size: 70px;
+}
+
+section {
+    width: 100%;
+    height: 300px;
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #333;
+}
+
+section article {
+    width: 80%;
+    height: 200px;
+    background-color: #fff;
+    border: 1px solid #333;
+}
+
+section article h2 {
+    text-align: center;
+}
+
+section article fieldset {
+    width: 80%;
+    margin: 20px auto;
+}
+
+section article fieldset div {
+    display: flex;
+    justify-content: space-around;
+}
+section article fieldset div div {
+    width: 100px;
+    height: 40px;
+    border: 1px solid #000;
+}
+
+section article fieldset div div.green {
+    background-color: darkgreen;
+}
+section article fieldset div div.blue {
+    background-color: darkblue;
+}
+section article fieldset div div.red {
+    background-color: darkred;
+}
+section article fieldset div div.yellow {
+    background-color: yellow;
+}
+section article fieldset div div.orange {
+    background-color: orange;
+}
+section article fieldset div div.pink {
+    background-color: hotpink;
+}
+section article fieldset div div.purple {
+    background-color: purple;
+}
+section article fieldset div div.cyan {
+    background-color: cyan;
+}
+section article fieldset div div.white {
+    background-color: ghostwhite;
+}
+section article fieldset div div.grey {
+    background-color: darkgrey;
+}
+
+#reception {
+    display: flex;
+    align-items: flex-start;
+    background-color: #000;
+    height: 500px;
+    margin-top: 0;
+}
+
+#reception img {
+    width: 10%;
+}
+
+
