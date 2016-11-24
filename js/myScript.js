@@ -11,7 +11,7 @@ $(document).ready(function() {
 
     // bleu
     $('section article fieldset div div.blue').click(function() {
-        $('#reception').val($(this)).css('background-image','radial-gradient(lightblue , white)');
+        $('#reception').val($(this)).css('background-image','radial-gradient(darkblue , white)');
         $('header h1').val($(this)).css('color','darkblue');
         $('section article h2').val($(this)).html('Bleu sélectionné');
     });
